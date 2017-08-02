@@ -1,0 +1,73 @@
+Language model created by QuickLM on Tue Aug  1 02:11:10 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=19
+ngram 3=18
+
+\1-grams:
+-1.0645 </s> -0.3010
+-1.0645 <s> -0.2278
+-1.7634 GO -0.2858
+-1.7634 I -0.2935
+-1.0645 MACSI -0.2366
+-1.7634 NEED -0.2935
+-1.4624 OPEN -0.2780
+-1.7634 TIME -0.2858
+-1.4624 TO -0.2858
+-1.2863 UP -0.2188
+-1.7634 WAKE -0.2780
+-1.7634 WORK -0.2619
+-1.7634 YOU -0.2619
+
+\2-grams:
+-0.6990 <s> MACSI -0.2041
+-1.0000 <s> OPEN 0.0000
+-1.0000 <s> TIME 0.0000
+-1.0000 <s> WAKE 0.0000
+-0.3010 GO TO -0.1761
+-0.3010 I NEED 0.0000
+-0.5229 MACSI </s> -0.3010
+-1.0000 MACSI I 0.0000
+-1.0000 MACSI OPEN 0.0000
+-0.3010 NEED YOU 0.0000
+-0.3010 OPEN UP 0.0000
+-0.3010 TIME TO -0.1761
+-0.6021 TO GO 0.0000
+-0.6021 TO WORK 0.0000
+-0.7782 UP </s> -0.3010
+-0.4771 UP MACSI -0.1461
+-0.3010 WAKE UP -0.1249
+-0.3010 WORK MACSI -0.1461
+-0.3010 YOU </s> -0.3010
+
+\3-grams:
+-0.6021 <s> MACSI I
+-0.6021 <s> MACSI OPEN
+-0.3010 <s> OPEN UP
+-0.3010 <s> TIME TO
+-0.3010 <s> WAKE UP
+-0.3010 GO TO WORK
+-0.3010 I NEED YOU
+-0.3010 MACSI I NEED
+-0.3010 MACSI OPEN UP
+-0.3010 NEED YOU </s>
+-0.6021 OPEN UP </s>
+-0.6021 OPEN UP MACSI
+-0.3010 TIME TO GO
+-0.3010 TO GO TO
+-0.3010 TO WORK MACSI
+-0.3010 UP MACSI </s>
+-0.3010 WAKE UP MACSI
+-0.3010 WORK MACSI </s>
+
+\end\

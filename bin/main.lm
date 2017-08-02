@@ -1,0 +1,71 @@
+Language model created by QuickLM on Tue Aug  1 02:11:10 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=18
+ngram 3=16
+
+\1-grams:
+-1.0792 </s> -0.3010
+-1.0792 <s> -0.2430
+-1.6812 BED -0.2632
+-1.6812 DOWN -0.2632
+-1.6812 FOR -0.2919
+-1.6812 GO -0.2825
+-1.6812 GOOD -0.2919
+-1.6812 I’M -0.2919
+-1.0792 MACSI -0.2430
+-1.6812 NOW -0.2632
+-1.6812 OFF -0.2632
+-1.6812 SHUT -0.2919
+-1.6812 TIME -0.2825
+-1.3802 TO -0.2825
+
+\2-grams:
+-0.9031 <s> I’M 0.0000
+-0.6021 <s> MACSI -0.1761
+-0.9031 <s> TIME 0.0000
+-0.3010 BED MACSI -0.1761
+-0.3010 DOWN </s> -0.3010
+-0.3010 FOR NOW 0.0000
+-0.3010 GO TO -0.1761
+-0.3010 GOOD FOR 0.0000
+-0.3010 I’M GOOD 0.0000
+-0.6021 MACSI </s> -0.3010
+-0.9031 MACSI OFF 0.0000
+-0.9031 MACSI SHUT 0.0000
+-0.3010 NOW MACSI -0.1761
+-0.3010 OFF </s> -0.3010
+-0.3010 SHUT DOWN 0.0000
+-0.3010 TIME TO -0.1761
+-0.6021 TO BED 0.0000
+-0.6021 TO GO 0.0000
+
+\3-grams:
+-0.3010 <s> I’M GOOD
+-0.6021 <s> MACSI OFF
+-0.6021 <s> MACSI SHUT
+-0.3010 <s> TIME TO
+-0.3010 BED MACSI </s>
+-0.3010 FOR NOW MACSI
+-0.3010 GO TO BED
+-0.3010 GOOD FOR NOW
+-0.3010 I’M GOOD FOR
+-0.3010 MACSI OFF </s>
+-0.3010 MACSI SHUT DOWN
+-0.3010 NOW MACSI </s>
+-0.3010 SHUT DOWN </s>
+-0.3010 TIME TO GO
+-0.3010 TO BED MACSI
+-0.3010 TO GO TO
+
+\end\
